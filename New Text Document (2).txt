@@ -1,0 +1,25 @@
+using namespace std;
+
+int main()
+{
+	
+	{
+		char mode;
+		cout << "Enter mode: " << '\n';
+		cin >> mode;
+		if (mode >= 65 && mode <= 90)
+		{
+			mode += 32;
+
+		}
+		else if (mode >= 48 && mode <= 57)
+		{
+			mode += 32;
+		}
+		else if (mode >= 33 && mode <= 40 )
+		{
+
+		}
+
+   }
+}
